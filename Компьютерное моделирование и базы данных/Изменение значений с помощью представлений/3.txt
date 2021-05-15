@@ -1,9 +1,0 @@
-CREATE TABLE Orders
-	(onum integer NOT NULL PRIMARY KEY,
-	amt decimal,
-	odate date DEFAULT VALUE = CURDATE,
-	snum integer,
-	cnum integer);
-CREATE VIEW Entryorders
-	AS SELECT onum, amt, snum, cnum
-		FROM Orders;
