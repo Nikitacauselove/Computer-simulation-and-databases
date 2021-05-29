@@ -3,6 +3,3 @@ CREATE VIEW Second
 		FROM "first"
 		WHERE "amt" < 1000
 		WITH LOCAL CHECK OPTION;	
-
-
-
