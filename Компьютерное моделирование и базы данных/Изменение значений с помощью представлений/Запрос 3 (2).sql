@@ -1,0 +1,8 @@
+CREATE VIEW Second
+	AS SELECT *
+	FROM "first"
+	WHERE "amt" < 1000
+	WITH LOCAL CHECK OPTION;;	
+
+
+
